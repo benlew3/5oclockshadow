@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2988374, 2015-03-10T18:17:09-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AltAlternative-Bold by ALT
+ * URL: http://www.myfonts.com/fonts/andreas-leonidou/alt-alternative/bold/
+ * 
+ * Webfont: AltAlternative-Light by ALT
+ * URL: http://www.myfonts.com/fonts/andreas-leonidou/alt-alternative/light/
+ * 
+ * Webfont: AltAlternativeRegular by ALT
+ * URL: http://www.myfonts.com/fonts/andreas-leonidou/alt-alternative/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2988374
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2010 by Andreas Leonidou. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2d9956");
+
+  
+@font-face {font-family: 'AltAlternative-Bold';src: url('webfonts/2D9956_0_0.eot');src: url('webfonts/2D9956_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D9956_0_0.woff2') format('woff2'),url('webfonts/2D9956_0_0.woff') format('woff'),url('webfonts/2D9956_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AltAlternative-Light';src: url('webfonts/2D9956_1_0.eot');src: url('webfonts/2D9956_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D9956_1_0.woff2') format('woff2'),url('webfonts/2D9956_1_0.woff') format('woff'),url('webfonts/2D9956_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AltAlternativeRegular';src: url('webfonts/2D9956_2_0.eot');src: url('webfonts/2D9956_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D9956_2_0.woff2') format('woff2'),url('webfonts/2D9956_2_0.woff') format('woff'),url('webfonts/2D9956_2_0.ttf') format('truetype');}
+ 
