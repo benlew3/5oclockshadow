@@ -51,9 +51,6 @@ body {
     margin: 0px !important;
     font-size:13px;
 }
-span#title1{
-    background-color: black;
-}
 ul li {
     list-style: none;
 }
@@ -324,8 +321,8 @@ ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:fo
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-i.active{
-    
+#active{
+    font-weight: bold;
 }
 
 
@@ -401,6 +398,13 @@ a.logo:hover, a.logo:focus {
 
 a.logo span {
     color: #68dff0;
+}
+span#title2{
+    color:black;
+}
+span#title1{
+    text-shadow: 10px 10px 7px black;
+    color:white;
 }
 
 hr {
