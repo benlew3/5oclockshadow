@@ -174,11 +174,7 @@ ul.top-menu > li > .logout {
 }
 
 #sidebar h5 {
-<<<<<<< HEAD
 	color: #ffffff;
-=======
-	color: black;
->>>>>>> 9f73d972e213afd838a5fd5193de3ce3cf58bca9
 	font-weight: 700;
 }
 
@@ -355,12 +351,9 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-<<<<<<< HEAD
     background: #7F6345;
-=======
-    background: #7f6345;
     border-bottom: 1px solid #7f6345;
->>>>>>> 9f73d972e213afd838a5fd5193de3ce3cf58bca9
+
 }
 
 .wrapper {
