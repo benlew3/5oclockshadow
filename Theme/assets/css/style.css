@@ -9,11 +9,40 @@ Premium: http://www.gridgum.com
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
+@import url("//hello.myfonts.net/count/2d9956");
+
+  
+@font-face {font-family: 'AltAlternative-Bold';src: url('webfonts/2D9956_0_0.eot');src: url('webfonts/2D9956_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D9956_0_0.woff2') format('woff2'),url('webfonts/2D9956_0_0.woff') format('woff'),url('webfonts/2D9956_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AltAlternative-Light';src: url('webfonts/2D9956_1_0.eot');src: url('webfonts/2D9956_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D9956_1_0.woff2') format('woff2'),url('webfonts/2D9956_1_0.woff') format('woff'),url('webfonts/2D9956_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AltAlternativeRegular';src: url('webfonts/2D9956_2_0.eot');src: url('webfonts/2D9956_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D9956_2_0.woff2') format('woff2'),url('webfonts/2D9956_2_0.woff') format('woff'),url('webfonts/2D9956_2_0.ttf') format('truetype');}
+
+
+/* Alternative Font 
+.AltAlternative-Bold { 
+    font-family: AltAlternative-Bold;
+    font-weight: normal;
+    font-style: normal;
+}
+.AltAlternative-Light { 
+    font-family: AltAlternative-Light;
+    font-weight: normal;
+    font-style: normal;
+}
+.AltAlternativeRegular { 
+    font-family: AltAlternativeRegular;
+    font-weight: normal;
+    font-style: normal;
+}
+*/
 /* BASIC THEME CONFIGURATION */
 body {
     color: #797979;
 	background: #f2f2f2;
-    font-family: 'Ruda', sans-serif;
+    font-family: 'helvetica', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
     font-size:13px;
@@ -29,11 +58,11 @@ a, a:hover, a:focus {
 }
 ::selection {
 
-    background: #68dff0;
+    background: #fff;
     color: #fff;
 }
 ::-moz-selection {
-    background: #68dff0;
+    background: #fff;
     color: #fff;
 }
 
@@ -236,7 +265,7 @@ ul.top-menu > li > .logout {
 }
 
 #sidebar h5 {
-	color: #f2f2f2;
+	color: #ffffff;
 	font-weight: 700;
 }
 
@@ -283,7 +312,7 @@ ul.sidebar-menu , ul.sidebar-menu li ul.sub{
 }
 
 ul.sidebar-menu {
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 #sidebar > ul > li > ul.sub {
@@ -364,7 +393,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #68dff0;
+    /* background: #ffecd7; */
     color: #fff;
     display: block;
 
@@ -409,17 +438,16 @@ ul.sidebar-menu li a.active i {
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 1002;
+    z-index: 300;
 }
 
 .black-bg {
-    background: #ffd777;
-    border-bottom: 1px solid #c9aa5f;
+    background: #7F6345;
 }
 
 .wrapper {
     display: inline-block;
-    margin-top: 60px;
+    margin-top: 90px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -428,15 +456,17 @@ ul.sidebar-menu li a.active i {
 }
 
 a.logo {
-    font-size: 20px;
+    font-size: 50px;
+    letter-spacing: 5px;
     color: #ffffff;
     float: left;
-    margin-top: 15px;
     text-transform: uppercase;
 }
 
 a.logo b {
+    font-family: AltAlternativeRegular;
     font-weight: 900;
+    padding-left: 400px;
 }
 
 a.logo:hover, a.logo:focus {
@@ -739,7 +769,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .sidebar-toggle-box {
     float: left;
     padding-right: 15px;
-    margin-top: 20px;
+    margin: 20px 50px;
 }
 
 .sidebar-toggle-box .fa-bars {
@@ -759,6 +789,12 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 .sidebar-closed #sidebar {
     margin-left: -180px;
+}
+#sidebar {
+  width: 210px;
+  height: 100%;
+  position: fixed;
+  background: #7F766C;
 }
 
 
@@ -1485,6 +1521,9 @@ PANELS CONFIGURATIONS
 
 /* PROFILE PANELS */
 /* Profile 01*/
+.fa fa-circle-thin fa-5x {
+    text-decoration: none;
+}
 #profile-01 {
 	background: url(../img/profile-01.jpg) no-repeat center top;
 	margin-top: -15px;
@@ -1735,10 +1774,8 @@ background: #fffbcc !important;
 
 /* FORMS CONFIGURATION */
 .form-panel {
-	background: #ffffff;
-	margin: 10px;
+	margin: 3px;
 	padding: 10px;
-	box-shadow: 0px 3px 2px #aab2bd;
 	text-align: left;
 }
 
